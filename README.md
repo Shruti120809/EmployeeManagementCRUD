@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Employee Management System
 
 A simple employee directory with a .NET 8 Web API, ADO.NET repository, SQL Server stored procedure, and a separate Bootstrap/jQuery UI. The UI is static HTML and does not use MVC or server-rendered views.
@@ -80,3 +81,6 @@ In Swagger, expand an endpoint, select **Try it out**, enter the path/query/body
 ## Architecture
 
 The controller handles HTTP routes, model validation, status codes, and safe error responses. It delegates employee operations to `IEmployeeRepository`; `EmployeeRepository` executes the single flag-based stored procedure using typed SQL parameters and asynchronous ADO.NET calls. `DbConnectionFactory` reads the connection string and creates SQL connections. The static UI calls the API with jQuery AJAX, with server-side validation remaining authoritative.
+=======
+# EmployeeManagementCRUD
+>>>>>>> 71b7140f7f2b5964cb65e60edefdca497af18f87
